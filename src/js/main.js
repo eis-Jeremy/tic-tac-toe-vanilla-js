@@ -24,7 +24,7 @@ boxes.forEach((box, i) => {
             box.textContent = currentPlayer;
 
             // Check for Winner
-            if (gemeWin()) {
+            if (gameWin()) {
                 table.style.display = "none";
                 gameScore.style.display = "block";
                 player.textContent = currentPlayer;
